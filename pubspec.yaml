@@ -1,0 +1,65 @@
+name: serenitte_prototype
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  smooth_page_indicator: ^1.0.0+2
+  outline_gradient_button: ^2.0.0+1
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Flavors
+      fonts: 
+        - asset: assets/fonts/FlavorsRegular.ttf
+          weight: 400
+    - family: Playfair Display
+      fonts: 
+        - asset: assets/fonts/PlayfairDisplayRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlayfairDisplayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PlayfairDisplayRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlayfairDisplayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlayfairDisplaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlayfairDisplayRomanRegular.ttf
+          weight: 400
+    - family: Alice
+      fonts: 
+        - asset: assets/fonts/AliceRegular.ttf
+          weight: 400
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ManropeExtraLightRegular.ttf
+          weight: 400
+    - family: Emilys Candy
+      fonts: 
+        - asset: assets/fonts/EmilysCandyRegular.ttf
+          weight: 400
