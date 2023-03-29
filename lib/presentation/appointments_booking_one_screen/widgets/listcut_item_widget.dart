@@ -155,4 +155,6 @@ class ListcutItemWidget extends StatelessWidget {
       ),
     );
   }
+
+  void onTapColumntime() {}
 }
