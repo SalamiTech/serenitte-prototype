@@ -35,7 +35,11 @@ class ImageConstant {
 
   static String imgWarning = 'assets/images/img_warning.svg';
 
+  static String imgGroup2013 = 'assets/images/img_group2013.png';
+
   static String imgEllipse108 = 'assets/images/img_ellipse10_8.png';
+
+  static String imgGroup2010 = 'assets/images/img_group2010.png';
 
   static String imgArrowdown = 'assets/images/img_arrowdown.svg';
 
@@ -220,6 +224,8 @@ class ImageConstant {
 
   static String imgVecteezymental = 'assets/images/img_vecteezymental.png';
 
+  static String imgGroup2255 = 'assets/images/img_group2255.png';
+
   static String imgEllipse11 = 'assets/images/img_ellipse11.png';
 
   static String imgRectangle21117x125 =
@@ -231,12 +237,12 @@ class ImageConstant {
 
   static String imgEllipse14 = 'assets/images/img_ellipse14.png';
 
-  static String imgGroup1856 = 'assets/images/img_group1856.png';
-
   static String imgItems = 'assets/images/img_items.svg';
 
   static String imgRectangle25107x81 =
       'assets/images/img_rectangle25_107x81.png';
+
+  static String imgGroup2032 = 'assets/images/img_group2032.png';
 
   static String imgRectangle17 = 'assets/images/img_rectangle17.png';
 
@@ -308,8 +314,6 @@ class ImageConstant {
 
   static String imgEllipse15 = 'assets/images/img_ellipse15.png';
 
-  static String imgGroup1611 = 'assets/images/img_group1611.png';
-
   static String imgFavorite = 'assets/images/img_favorite.svg';
 
   static String imgVectorGray100 = 'assets/images/img_vector_gray_100.svg';
@@ -319,8 +323,6 @@ class ImageConstant {
   static String imgEllipse106 = 'assets/images/img_ellipse10_6.png';
 
   static String imgEllipse20140x40 = 'assets/images/img_ellipse201_40x40.png';
-
-  static String imgGroup1614 = 'assets/images/img_group1614.png';
 
   static String imgMaterialsymbolsstar =
       'assets/images/img_materialsymbolsstar.svg';
@@ -382,8 +384,6 @@ class ImageConstant {
 
   static String imgBookmarkWhiteA700 =
       'assets/images/img_bookmark_white_a700.svg';
-
-  static String imgGroup1633 = 'assets/images/img_group1633.png';
 
   static String imgHomeBlueGray900 = 'assets/images/img_home_blue_gray_900.svg';
 

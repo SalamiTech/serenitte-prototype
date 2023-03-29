@@ -57,7 +57,7 @@ class MusicPodcastScreen extends GetWidget<MusicPodcastController> {
                                         ])),
                                 GestureDetector(
                                     onTap: () {
-                                      cap4();
+                                      onTapColumnellipseten();
                                     },
                                     child: Padding(
                                         padding: getPadding(left: 7),
@@ -380,7 +380,7 @@ class MusicPodcastScreen extends GetWidget<MusicPodcastController> {
                                                                           child: Row(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.start, children: [
                                                                             GestureDetector(
                                                                                 onTap: () {
-                                                                                  NextScreen3();
+                                                                                  onTapColumnlofiplaylist();
                                                                                 },
                                                                                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
                                                                                   Text("lbl_lo_fi_playlist2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtInterMedium14Bluegray900),
@@ -527,7 +527,7 @@ class MusicPodcastScreen extends GetWidget<MusicPodcastController> {
     Get.back();
   }
 
-  cap4() {
+  onTapColumnellipseten() {
     Get.toNamed(AppRoutes.calendarScreen);
   }
 
@@ -535,7 +535,7 @@ class MusicPodcastScreen extends GetWidget<MusicPodcastController> {
     Get.toNamed(AppRoutes.musicPodcastTwoScreen);
   }
 
-  NextScreen3() {
+  onTapColumnlofiplaylist() {
     Get.toNamed(AppRoutes.musicPodcastTwoScreen);
   }
 }

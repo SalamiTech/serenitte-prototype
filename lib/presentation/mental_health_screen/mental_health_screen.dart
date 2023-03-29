@@ -84,7 +84,7 @@ class MentalHealthScreen extends GetWidget<MentalHealthController> {
                                 alignment: Alignment.center,
                                 child: GestureDetector(
                                     onTap: () {
-                                      NextScreen();
+                                      onTapEllipseFive();
                                     },
                                     child: Container(
                                         height: getSize(70),
@@ -97,12 +97,21 @@ class MentalHealthScreen extends GetWidget<MentalHealthController> {
                                 svgPath: ImageConstant.imgArrowright,
                                 height: getSize(24),
                                 width: getSize(24),
-                                alignment: Alignment.center)
+                                alignment: Alignment.center),
+                            Align(
+                                alignment: Alignment.center,
+                                child: Container(
+                                    height: getVerticalSize(122),
+                                    width: getHorizontalSize(126),
+                                    decoration: BoxDecoration(
+                                        color: ColorConstant.lightGreen6007f,
+                                        borderRadius: BorderRadius.circular(
+                                            getHorizontalSize(63)))))
                           ]))
                     ]))));
   }
 
-  NextScreen() {
+  onTapEllipseFive() {
     Get.toNamed(AppRoutes.loginSignUpScreen);
   }
 }

@@ -53,7 +53,7 @@ class BreathingExcerisesTwoScreen
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             image: AssetImage(
-                                                ImageConstant.imgGroup1856),
+                                                ImageConstant.imgGroup2255),
                                             fit: BoxFit.cover)),
                                     child: Column(
                                         mainAxisSize: MainAxisSize.min,

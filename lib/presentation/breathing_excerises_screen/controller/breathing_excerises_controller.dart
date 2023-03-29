@@ -3,7 +3,7 @@ import 'package:serenitte_prototype/presentation/breathing_excerises_screen/mode
 import 'package:flutter/material.dart';
 
 class BreathingExcerisesController extends GetxController {
-  TextEditingController group1607Controller = TextEditingController();
+  TextEditingController group2006Controller = TextEditingController();
 
   Rx<BreathingExcerisesModel> breathingExcerisesModelObj =
       BreathingExcerisesModel().obs;
@@ -16,6 +16,6 @@ class BreathingExcerisesController extends GetxController {
   @override
   void onClose() {
     super.onClose();
-    group1607Controller.dispose();
+    group2006Controller.dispose();
   }
 }
