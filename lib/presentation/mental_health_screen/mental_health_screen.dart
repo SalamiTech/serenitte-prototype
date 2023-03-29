@@ -38,10 +38,7 @@ class MentalHealthScreen extends GetWidget<MentalHealthController> {
                       height: getVerticalSize(391),
                       width: getHorizontalSize(383),
                       alignment: Alignment.topCenter,
-                      margin: getMargin(top: 67),
-                      onTap: () {
-                        onTapImgDrawkitvectoril();
-                      }),
+                      margin: getMargin(top: 67)),
                   Align(
                       alignment: Alignment.bottomLeft,
                       child: Container(
@@ -87,7 +84,7 @@ class MentalHealthScreen extends GetWidget<MentalHealthController> {
                                 alignment: Alignment.center,
                                 child: GestureDetector(
                                     onTap: () {
-                                      onTapEllipseFive();
+                                      NextScreen();
                                     },
                                     child: Container(
                                         height: getSize(70),
@@ -100,25 +97,12 @@ class MentalHealthScreen extends GetWidget<MentalHealthController> {
                                 svgPath: ImageConstant.imgArrowright,
                                 height: getSize(24),
                                 width: getSize(24),
-                                alignment: Alignment.center),
-                            Align(
-                                alignment: Alignment.center,
-                                child: Container(
-                                    height: getVerticalSize(122),
-                                    width: getHorizontalSize(126),
-                                    decoration: BoxDecoration(
-                                        color: ColorConstant.lightGreen6007f,
-                                        borderRadius: BorderRadius.circular(
-                                            getHorizontalSize(63)))))
+                                alignment: Alignment.center)
                           ]))
                     ]))));
   }
 
-  onTapImgDrawkitvectoril() {
-    Get.toNamed(AppRoutes.mentalHealthOneScreen);
-  }
-
-  onTapEllipseFive() {
+  NextScreen() {
     Get.toNamed(AppRoutes.loginSignUpScreen);
   }
 }
