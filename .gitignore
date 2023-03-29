@@ -6,5 +6,8 @@
 !/.packages
 !/.flutter-plugins-dependencies
 !/.flutter-plugins
+<<<<<<< HEAD
 .git.zip
 .git
+=======
+>>>>>>> 8007629 (Sync)
