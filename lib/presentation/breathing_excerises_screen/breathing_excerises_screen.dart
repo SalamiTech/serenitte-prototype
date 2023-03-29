@@ -103,7 +103,7 @@ class BreathingExcerisesScreen extends GetWidget<BreathingExcerisesController> {
                                                               image: DecorationImage(
                                                                   image: AssetImage(
                                                                       ImageConstant
-                                                                          .imgGroup1856),
+                                                                          .imgGroup2255),
                                                                   fit: BoxFit
                                                                       .cover)),
                                                           child: Column(
@@ -170,7 +170,7 @@ class BreathingExcerisesScreen extends GetWidget<BreathingExcerisesController> {
                                 CustomTextFormField(
                                     width: getHorizontalSize(329),
                                     focusNode: FocusNode(),
-                                    controller: controller.group1607Controller,
+                                    controller: controller.group2006Controller,
                                     hintText: "lbl_jazz".tr,
                                     variant: TextFormFieldVariant
                                         .OutlineLightgreen600,

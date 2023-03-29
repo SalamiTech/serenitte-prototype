@@ -84,7 +84,7 @@ class VideoCallScreen extends GetWidget<VideoCallController> {
                               left: 5, top: 40, right: 5, bottom: 40),
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage(ImageConstant.imgGroup1611),
+                                  image: AssetImage(ImageConstant.imgGroup2010),
                                   fit: BoxFit.cover)),
                           child: Column(
                               mainAxisSize: MainAxisSize.min,
