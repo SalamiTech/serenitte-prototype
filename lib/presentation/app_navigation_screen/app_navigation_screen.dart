@@ -931,7 +931,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapSleepstoriesOne();
+                                              onTapSleepstories();
                                             },
                                             child: Container(
                                                 decoration:
@@ -952,7 +952,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "msg_sleep_stories_one"
+                                                                  "lbl_sleep_stories3"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -977,7 +977,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                     ]))),
                                         GestureDetector(
                                             onTap: () {
-                                              onTapSleepstories();
+                                              onTapSleepstoriesOne();
                                             },
                                             child: Container(
                                                 decoration:
@@ -998,7 +998,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                       bottom:
                                                                           10),
                                                               child: Text(
-                                                                  "lbl_sleep_stories3"
+                                                                  "msg_sleep_stories_one"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -1239,12 +1239,12 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
     Get.toNamed(AppRoutes.videoCallScreen);
   }
 
-  onTapSleepstoriesOne() {
-    Get.toNamed(AppRoutes.sleepStoriesOneScreen);
-  }
-
   onTapSleepstories() {
     Get.toNamed(AppRoutes.sleepStoriesScreen);
+  }
+
+  onTapSleepstoriesOne() {
+    Get.toNamed(AppRoutes.sleepStoriesOneScreen);
   }
 
   onTapBreathingexcerisesTwo() {

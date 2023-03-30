@@ -50,7 +50,7 @@ class AppointmentsBookingScreen
                                                         CustomImageView(
                                                             imagePath:
                                                                 ImageConstant
-                                                                    .imgEllipse105,
+                                                                    .imgEllipse104,
                                                             height:
                                                                 getVerticalSize(
                                                                     165),
@@ -240,8 +240,13 @@ class AppointmentsBookingScreen
                                                                     20))),
                                                     Padding(
                                                         padding: getPadding(
-                                                            left: 4, top: 2),
+                                                            left: 4,
+                                                            top: 2,
+                                                            bottom: 1),
                                                         child: Column(
+                                                            crossAxisAlignment:
+                                                                CrossAxisAlignment
+                                                                    .start,
                                                             mainAxisAlignment:
                                                                 MainAxisAlignment
                                                                     .start,
@@ -261,9 +266,9 @@ class AppointmentsBookingScreen
                                                                   padding:
                                                                       getPadding(
                                                                           top:
-                                                                              5),
+                                                                              4),
                                                                   child: Text(
-                                                                      "lbl_mercy_appiah"
+                                                                      "lbl_nina"
                                                                           .tr,
                                                                       overflow:
                                                                           TextOverflow

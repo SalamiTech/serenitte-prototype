@@ -153,7 +153,7 @@ class MentalHealthFivePage extends StatelessWidget {
                                                                 image: DecorationImage(
                                                                     image: AssetImage(
                                                                         ImageConstant
-                                                                            .imgGroup1614),
+                                                                            .imgGroup3190),
                                                                     fit: BoxFit
                                                                         .cover)),
                                                             child: Column(
@@ -304,12 +304,18 @@ class MentalHealthFivePage extends StatelessWidget {
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.left,
                                           style: AppStyle.txtInterRegular16),
-                                      Padding(
-                                          padding: getPadding(bottom: 5),
-                                          child: Text("lbl_view_all".tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle.txtInterMedium12))
+                                      GestureDetector(
+                                          onTap: () {
+                                            onTapTxtViewall();
+                                          },
+                                          child: Padding(
+                                              padding: getPadding(bottom: 5),
+                                              child: Text("lbl_view_all".tr,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  textAlign: TextAlign.left,
+                                                  style: AppStyle
+                                                      .txtInterMedium12)))
                                     ])),
                             Container(
                                 height: getVerticalSize(169),
@@ -407,7 +413,7 @@ class MentalHealthFivePage extends StatelessWidget {
                                                                           left:
                                                                               6),
                                                                   onTap: () {
-                                                                    NextScreen();
+                                                                    onTapImgRectangleSixteen();
                                                                   }),
                                                               CustomImageView(
                                                                   imagePath:
@@ -821,7 +827,7 @@ class MentalHealthFivePage extends StatelessWidget {
                                                                   GestureDetector(
                                                                       onTap:
                                                                           () {
-                                                                        NextScreen1();
+                                                                        onTapTxtReminders();
                                                                       },
                                                                       child: Text(
                                                                           "lbl_reminders"
@@ -851,7 +857,7 @@ class MentalHealthFivePage extends StatelessWidget {
                                                                 ]))),
                                                     GestureDetector(
                                                         onTap: () {
-                                                          NextScreen2();
+                                                          onTapTxtViewallTwo();
                                                         },
                                                         child: Padding(
                                                             padding: getPadding(
@@ -968,11 +974,15 @@ class MentalHealthFivePage extends StatelessWidget {
                     ]))));
   }
 
-  NextScreen() {
+  onTapTxtViewall() {
+    Get.toNamed(AppRoutes.musicPodcastOneScreen);
+  }
+
+  onTapImgRectangleSixteen() {
     Get.toNamed(AppRoutes.musicPodcastScreen);
   }
 
-  NextScreen1() {
+  onTapTxtReminders() {
     Get.toNamed(AppRoutes.appointmentsBookingOneScreen);
   }
 
@@ -980,7 +990,7 @@ class MentalHealthFivePage extends StatelessWidget {
     Get.toNamed(AppRoutes.calendarScreen);
   }
 
-  NextScreen2() {
+  onTapTxtViewallTwo() {
     Get.toNamed(AppRoutes.musicPodcastOneScreen);
   }
 

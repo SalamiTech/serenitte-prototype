@@ -217,6 +217,7 @@ final Map<String, String> enUs = {
   "lbl_lo_fi": "Lo-Fi ",
   "lbl_02_00pm": "02:00pm",
   "lbl_1_25": "1:25",
+  "lbl_nina": "Nina",
   "lbl_10_00": "10:00",
   "lbl_view": "View ",
   "lbl_09_00_am2": "09:00 AM",

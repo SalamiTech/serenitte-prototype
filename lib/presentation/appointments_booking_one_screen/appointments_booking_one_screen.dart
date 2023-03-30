@@ -65,7 +65,7 @@ class AppointmentsBookingOneScreen
                                                                   CustomImageView(
                                                                       imagePath:
                                                                           ImageConstant
-                                                                              .imgEllipse104,
+                                                                              .imgEllipse103,
                                                                       height:
                                                                           getVerticalSize(
                                                                               165),

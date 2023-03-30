@@ -67,7 +67,7 @@ class VideoCallScreen extends GetWidget<VideoCallController> {
                           child:
                               Stack(alignment: Alignment.topRight, children: [
                             CustomImageView(
-                                imagePath: ImageConstant.imgEllipse108,
+                                imagePath: ImageConstant.imgEllipse107,
                                 height: getVerticalSize(165),
                                 width: getHorizontalSize(146),
                                 alignment: Alignment.center),
@@ -84,7 +84,7 @@ class VideoCallScreen extends GetWidget<VideoCallController> {
                               left: 5, top: 40, right: 5, bottom: 40),
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage(ImageConstant.imgGroup1611),
+                                  image: AssetImage(ImageConstant.imgGroup3187),
                                   fit: BoxFit.cover)),
                           child: Column(
                               mainAxisSize: MainAxisSize.min,

@@ -36,10 +36,10 @@ import 'package:serenitte_prototype/presentation/video_call_one_screen/video_cal
 import 'package:serenitte_prototype/presentation/video_call_one_screen/binding/video_call_one_binding.dart';
 import 'package:serenitte_prototype/presentation/video_call_screen/video_call_screen.dart';
 import 'package:serenitte_prototype/presentation/video_call_screen/binding/video_call_binding.dart';
-import 'package:serenitte_prototype/presentation/sleep_stories_one_screen/sleep_stories_one_screen.dart';
-import 'package:serenitte_prototype/presentation/sleep_stories_one_screen/binding/sleep_stories_one_binding.dart';
 import 'package:serenitte_prototype/presentation/sleep_stories_screen/sleep_stories_screen.dart';
 import 'package:serenitte_prototype/presentation/sleep_stories_screen/binding/sleep_stories_binding.dart';
+import 'package:serenitte_prototype/presentation/sleep_stories_one_screen/sleep_stories_one_screen.dart';
+import 'package:serenitte_prototype/presentation/sleep_stories_one_screen/binding/sleep_stories_one_binding.dart';
 import 'package:serenitte_prototype/presentation/breathing_excerises_two_screen/breathing_excerises_two_screen.dart';
 import 'package:serenitte_prototype/presentation/breathing_excerises_two_screen/binding/breathing_excerises_two_binding.dart';
 import 'package:serenitte_prototype/presentation/breathing_excerises_screen/breathing_excerises_screen.dart';
@@ -100,9 +100,9 @@ class AppRoutes {
 
   static const String videoCallScreen = '/video_call_screen';
 
-  static const String sleepStoriesOneScreen = '/sleep_stories_one_screen';
-
   static const String sleepStoriesScreen = '/sleep_stories_screen';
+
+  static const String sleepStoriesOneScreen = '/sleep_stories_one_screen';
 
   static const String breathingExcerisesTwoScreen =
       '/breathing_excerises_two_screen';
@@ -251,17 +251,17 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: sleepStoriesOneScreen,
-      page: () => SleepStoriesOneScreen(),
-      bindings: [
-        SleepStoriesOneBinding(),
-      ],
-    ),
-    GetPage(
       name: sleepStoriesScreen,
       page: () => SleepStoriesScreen(),
       bindings: [
         SleepStoriesBinding(),
+      ],
+    ),
+    GetPage(
+      name: sleepStoriesOneScreen,
+      page: () => SleepStoriesOneScreen(),
+      bindings: [
+        SleepStoriesOneBinding(),
       ],
     ),
     GetPage(
