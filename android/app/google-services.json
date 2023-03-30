@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1024711777772",
+    "project_id": "serenitte-prototype",
+    "storage_bucket": "serenitte-prototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024711777772:android:fa276cb0b1c28cb36bb4c9",
+        "android_client_info": {
+          "package_name": "com.serenitteprototype.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024711777772-ul68670gbsgrh0m27qtl2mq80l49em0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wXavhZhsF9q7izpfiLtwiKaz1jdFtts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024711777772-ul68670gbsgrh0m27qtl2mq80l49em0j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1024711777772-bk1na7rct2qut8kee5vsqukap60gq0us.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.serenitteprototype.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
