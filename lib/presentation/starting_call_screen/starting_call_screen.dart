@@ -49,7 +49,7 @@ class StartingCallScreen extends GetWidget<StartingCallController> {
                                                         CustomImageView(
                                                             imagePath:
                                                                 ImageConstant
-                                                                    .imgEllipse106,
+                                                                    .imgEllipse105,
                                                             height:
                                                                 getVerticalSize(
                                                                     165),

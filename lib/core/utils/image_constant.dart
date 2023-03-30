@@ -35,15 +35,9 @@ class ImageConstant {
 
   static String imgWarning = 'assets/images/img_warning.svg';
 
-  static String imgGroup2013 = 'assets/images/img_group2013.png';
-
   static String imgEllipse108 = 'assets/images/img_ellipse10_8.png';
 
-  static String imgGroup2010 = 'assets/images/img_group2010.png';
-
   static String imgArrowdown = 'assets/images/img_arrowdown.svg';
-
-  static String imgRectangle171 = 'assets/images/img_rectangle17_1.png';
 
   static String imgPlayfoward = 'assets/images/img_playfoward.svg';
 
@@ -63,6 +57,8 @@ class ImageConstant {
   static String imgConversationcl = 'assets/images/img_conversationcl.png';
 
   static String imgMenu = 'assets/images/img_menu.svg';
+
+  static String imgGroup3190 = 'assets/images/img_group3190.png';
 
   static String imgCurlyhairamico = 'assets/images/img_curlyhairamico.png';
 
@@ -120,6 +116,8 @@ class ImageConstant {
 
   static String imgMaterialsymbol = 'assets/images/img_materialsymbol.svg';
 
+  static String imgGroup2794 = 'assets/images/img_group2794.png';
+
   static String imgRectangle1793x81 = 'assets/images/img_rectangle17_93x81.png';
 
   static String imgEllipse10 = 'assets/images/img_ellipse10.png';
@@ -130,7 +128,7 @@ class ImageConstant {
   static String imgEmojismilingOrange600 =
       'assets/images/img_emojismiling_orange_600.png';
 
-  static String imgMeditationamico = 'assets/images/img_meditationamico.png';
+  static String imgGroup2816 = 'assets/images/img_group2816.png';
 
   static String imgDrawkitvectorillustration =
       'assets/images/img_drawkitvectorillustration.png';
@@ -166,8 +164,6 @@ class ImageConstant {
 
   static String imgDashboard = 'assets/images/img_dashboard.svg';
 
-  static String imgEllipse1012 = 'assets/images/img_ellipse10_12.png';
-
   static String imgFluentsavecopy20filled =
       'assets/images/img_fluentsavecopy20filled.png';
 
@@ -178,6 +174,8 @@ class ImageConstant {
 
   static String imgArrowdownBlueGray900 =
       'assets/images/img_arrowdown_blue_gray_900.svg';
+
+  static String imgEllipse10161x146 = 'assets/images/img_ellipse10_161x146.png';
 
   static String imgEllipse12 = 'assets/images/img_ellipse12.png';
 
@@ -224,8 +222,6 @@ class ImageConstant {
 
   static String imgVecteezymental = 'assets/images/img_vecteezymental.png';
 
-  static String imgGroup2255 = 'assets/images/img_group2255.png';
-
   static String imgEllipse11 = 'assets/images/img_ellipse11.png';
 
   static String imgRectangle21117x125 =
@@ -241,8 +237,6 @@ class ImageConstant {
 
   static String imgRectangle25107x81 =
       'assets/images/img_rectangle25_107x81.png';
-
-  static String imgGroup2032 = 'assets/images/img_group2032.png';
 
   static String imgRectangle17 = 'assets/images/img_rectangle17.png';
 
@@ -280,6 +274,8 @@ class ImageConstant {
 
   static String imgFrame5 = 'assets/images/img_frame5.svg';
 
+  static String imgGroup2797 = 'assets/images/img_group2797.png';
+
   static String imgCustomersurveyamico =
       'assets/images/img_customersurveyamico.png';
 
@@ -302,6 +298,9 @@ class ImageConstant {
   static String imgGroupLightGreen600160x87 =
       'assets/images/img_group_light_green_600_160x87.png';
 
+  static String imgMeditationamico103x54 =
+      'assets/images/img_meditationamico_103x54.png';
+
   static String imgEmojismiling = 'assets/images/img_emojismiling.svg';
 
   static String imgHerbalifeskin = 'assets/images/img_herbalifeskin.png';
@@ -309,6 +308,8 @@ class ImageConstant {
   static String imgCall = 'assets/images/img_call.svg';
 
   static String imgLocation = 'assets/images/img_location.svg';
+
+  static String imgGroup3433 = 'assets/images/img_group3433.png';
 
   static String imgDreameramico1 = 'assets/images/img_dreameramico1.png';
 
@@ -326,6 +327,8 @@ class ImageConstant {
 
   static String imgMaterialsymbolsstar =
       'assets/images/img_materialsymbolsstar.svg';
+
+  static String imgGroup3209 = 'assets/images/img_group3209.png';
 
   static String imgLoficonceptcuate = 'assets/images/img_loficonceptcuate.png';
 
@@ -376,6 +379,8 @@ class ImageConstant {
 
   static String imgEllipse104 = 'assets/images/img_ellipse10_4.png';
 
+  static String imgGroup3040 = 'assets/images/img_group3040.png';
+
   static String imgRectangle219 = 'assets/images/img_rectangle21_9.png';
 
   static String imgHome = 'assets/images/img_home.svg';
@@ -387,8 +392,12 @@ class ImageConstant {
 
   static String imgHomeBlueGray900 = 'assets/images/img_home_blue_gray_900.svg';
 
+  static String imgGroup3187 = 'assets/images/img_group3187.png';
+
   static String imgGroupLightGreen600231x177 =
       'assets/images/img_group_light_green_600_231x177.png';
+
+  static String imgRectangle1793x82 = 'assets/images/img_rectangle17_93x82.png';
 
   static String imgArrowrightLightGreen600 =
       'assets/images/img_arrowright_light_green_600.svg';

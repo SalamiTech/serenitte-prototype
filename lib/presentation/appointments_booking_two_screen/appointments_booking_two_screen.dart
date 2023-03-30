@@ -55,7 +55,7 @@ class AppointmentsBookingTwoScreen
                                                       CustomImageView(
                                                           imagePath:
                                                               ImageConstant
-                                                                  .imgEllipse103,
+                                                                  .imgEllipse102,
                                                           height:
                                                               getVerticalSize(
                                                                   165),

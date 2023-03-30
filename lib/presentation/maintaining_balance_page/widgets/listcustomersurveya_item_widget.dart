@@ -24,6 +24,7 @@ class ListcustomersurveyaItemWidget extends StatelessWidget {
         child: Container(
           margin: getMargin(
             right: 20,
+            bottom: 4,
           ),
           padding: getPadding(
             left: 8,

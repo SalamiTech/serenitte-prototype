@@ -62,7 +62,7 @@ class BreathingExcerisesScreen extends GetWidget<BreathingExcerisesController> {
                                                 children: [
                                                   CustomImageView(
                                                       imagePath: ImageConstant
-                                                          .imgEllipse1011,
+                                                          .imgEllipse1010,
                                                       height:
                                                           getVerticalSize(165),
                                                       width: getHorizontalSize(
@@ -103,7 +103,7 @@ class BreathingExcerisesScreen extends GetWidget<BreathingExcerisesController> {
                                                               image: DecorationImage(
                                                                   image: AssetImage(
                                                                       ImageConstant
-                                                                          .imgGroup2255),
+                                                                          .imgGroup3433),
                                                                   fit: BoxFit
                                                                       .cover)),
                                                           child: Column(
@@ -170,7 +170,7 @@ class BreathingExcerisesScreen extends GetWidget<BreathingExcerisesController> {
                                 CustomTextFormField(
                                     width: getHorizontalSize(329),
                                     focusNode: FocusNode(),
-                                    controller: controller.group2006Controller,
+                                    controller: controller.group3183Controller,
                                     hintText: "lbl_jazz".tr,
                                     variant: TextFormFieldVariant
                                         .OutlineLightgreen600,

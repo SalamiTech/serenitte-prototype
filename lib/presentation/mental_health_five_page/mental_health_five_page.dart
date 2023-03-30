@@ -153,7 +153,7 @@ class MentalHealthFivePage extends StatelessWidget {
                                                                 image: DecorationImage(
                                                                     image: AssetImage(
                                                                         ImageConstant
-                                                                            .imgGroup2013),
+                                                                            .imgGroup3190),
                                                                     fit: BoxFit
                                                                         .cover)),
                                                             child: Column(
@@ -304,12 +304,18 @@ class MentalHealthFivePage extends StatelessWidget {
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.left,
                                           style: AppStyle.txtInterRegular16),
-                                      Padding(
-                                          padding: getPadding(bottom: 5),
-                                          child: Text("lbl_view_all".tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle.txtInterMedium12))
+                                      GestureDetector(
+                                          onTap: () {
+                                            onTapTxtViewall();
+                                          },
+                                          child: Padding(
+                                              padding: getPadding(bottom: 5),
+                                              child: Text("lbl_view_all".tr,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  textAlign: TextAlign.left,
+                                                  style: AppStyle
+                                                      .txtInterMedium12)))
                                     ])),
                             Container(
                                 height: getVerticalSize(169),
@@ -966,6 +972,10 @@ class MentalHealthFivePage extends StatelessWidget {
                                     ]))
                           ])))
                     ]))));
+  }
+
+  onTapTxtViewall() {
+    Get.toNamed(AppRoutes.musicPodcastOneScreen);
   }
 
   onTapImgRectangleSixteen() {

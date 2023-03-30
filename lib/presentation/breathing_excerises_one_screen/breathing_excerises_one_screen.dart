@@ -43,7 +43,7 @@ class BreathingExcerisesOneScreen
                                         alignment: Alignment.topLeft,
                                         child: Padding(
                                             padding:
-                                                getPadding(left: 69, top: 132),
+                                                getPadding(left: 66, top: 57),
                                             child: Text(
                                                 "msg_breathe_in_slowly".tr,
                                                 overflow: TextOverflow.ellipsis,
@@ -60,7 +60,7 @@ class BreathingExcerisesOneScreen
                                                 children: [
                                                   CustomImageView(
                                                       imagePath: ImageConstant
-                                                          .imgEllipse1012,
+                                                          .imgEllipse1011,
                                                       height:
                                                           getVerticalSize(165),
                                                       width: getHorizontalSize(

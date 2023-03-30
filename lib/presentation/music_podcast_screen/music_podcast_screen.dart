@@ -147,7 +147,7 @@ class MusicPodcastScreen extends GetWidget<MusicPodcastController> {
                                                                     children: [
                                                                       CustomImageView(
                                                                           imagePath: ImageConstant
-                                                                              .imgEllipse101,
+                                                                              .imgEllipse10165x146,
                                                                           height: getVerticalSize(
                                                                               165),
                                                                           width: getHorizontalSize(

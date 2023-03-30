@@ -25,7 +25,7 @@ class MaintainingBalancePage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
                             Container(
-                                height: getVerticalSize(165),
+                                height: getVerticalSize(161),
                                 width: getHorizontalSize(345),
                                 child: Stack(
                                     alignment: Alignment.center,
@@ -44,7 +44,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                       Align(
                                           alignment: Alignment.center,
                                           child: Container(
-                                              height: getVerticalSize(165),
+                                              height: getVerticalSize(161),
                                               width: getHorizontalSize(345),
                                               child: Stack(
                                                   alignment:
@@ -72,7 +72,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                             .bottomLeft,
                                                         child: Padding(
                                                             padding: getPadding(
-                                                                bottom: 32),
+                                                                bottom: 28),
                                                             child: Text(
                                                                 "msg_choose_what_you_d"
                                                                     .tr,
@@ -90,7 +90,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                         child: Container(
                                                             height:
                                                                 getVerticalSize(
-                                                                    165),
+                                                                    161),
                                                             width:
                                                                 getHorizontalSize(
                                                                     146),
@@ -102,10 +102,10 @@ class MaintainingBalancePage extends StatelessWidget {
                                                                   CustomImageView(
                                                                       imagePath:
                                                                           ImageConstant
-                                                                              .imgEllipse10165x146,
+                                                                              .imgEllipse10161x146,
                                                                       height:
                                                                           getVerticalSize(
-                                                                              165),
+                                                                              161),
                                                                       width: getHorizontalSize(
                                                                           146),
                                                                       alignment:
@@ -117,7 +117,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                                               .imgGroup19,
                                                                       height:
                                                                           getVerticalSize(
-                                                                              123),
+                                                                              119),
                                                                       width: getHorizontalSize(
                                                                           111),
                                                                       alignment:
@@ -127,7 +127,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                   ])))
                                     ])),
                             Container(
-                                height: getVerticalSize(139),
+                                height: getVerticalSize(143),
                                 child: Obx(() => ListView.separated(
                                     padding: getPadding(left: 15, top: 3),
                                     scrollDirection: Axis.horizontal,
@@ -155,13 +155,13 @@ class MaintainingBalancePage extends StatelessWidget {
                             SingleChildScrollView(
                                 scrollDirection: Axis.horizontal,
                                 padding:
-                                    getPadding(left: 15, top: 33, bottom: 5),
+                                    getPadding(left: 10, top: 29, bottom: 5),
                                 child: IntrinsicWidth(
                                     child: Container(
-                                        height: getVerticalSize(341),
-                                        width: getHorizontalSize(345),
+                                        height: getVerticalSize(297),
+                                        width: getHorizontalSize(350),
                                         child: Stack(
-                                            alignment: Alignment.topRight,
+                                            alignment: Alignment.centerRight,
                                             children: [
                                               CustomImageView(
                                                   imagePath: ImageConstant
@@ -169,15 +169,17 @@ class MaintainingBalancePage extends StatelessWidget {
                                                   height: getVerticalSize(93),
                                                   width: getHorizontalSize(88),
                                                   alignment:
-                                                      Alignment.centerRight),
+                                                      Alignment.bottomRight,
+                                                  margin:
+                                                      getMargin(bottom: 83)),
                                               CustomImageView(
                                                   svgPath:
                                                       ImageConstant.imgGroup279,
                                                   height: getSize(76),
                                                   width: getSize(76),
-                                                  alignment: Alignment.topRight,
-                                                  margin: getMargin(
-                                                      top: 111, right: 13)),
+                                                  alignment:
+                                                      Alignment.centerRight,
+                                                  margin: getMargin(right: 13)),
                                               Align(
                                                   alignment: Alignment.topLeft,
                                                   child: GestureDetector(
@@ -185,6 +187,8 @@ class MaintainingBalancePage extends StatelessWidget {
                                                         onTapColumnloficonceptcuat();
                                                       },
                                                       child: Container(
+                                                          margin: getMargin(
+                                                              left: 5),
                                                           padding: getPadding(
                                                               left: 8,
                                                               top: 6,
@@ -238,7 +242,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                       },
                                                       child: Container(
                                                           margin: getMargin(
-                                                              right: 86),
+                                                              right: 85),
                                                           padding: getPadding(
                                                               left: 17,
                                                               top: 5,
@@ -291,7 +295,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                       Alignment.bottomCenter,
                                                   child: Padding(
                                                       padding:
-                                                          getPadding(top: 205),
+                                                          getPadding(top: 161),
                                                       child: Row(
                                                           mainAxisAlignment:
                                                               MainAxisAlignment
@@ -407,7 +411,7 @@ class MaintainingBalancePage extends StatelessWidget {
                                                                         height: getVerticalSize(
                                                                             136),
                                                                         width: getHorizontalSize(
-                                                                            62),
+                                                                            67),
                                                                         padding: getPadding(
                                                                             top:
                                                                                 12,
@@ -418,15 +422,16 @@ class MaintainingBalancePage extends StatelessWidget {
                                                                             .copyWith(borderRadius: BorderRadiusStyle.roundedBorder10),
                                                                         child: Stack(children: [
                                                                           CustomImageView(
-                                                                              imagePath: ImageConstant.imgMeditationamico,
+                                                                              imagePath: ImageConstant.imgMeditationamico103x54,
                                                                               height: getVerticalSize(103),
-                                                                              width: getHorizontalSize(49),
+                                                                              width: getHorizontalSize(54),
                                                                               alignment: Alignment.topRight)
                                                                         ])))
                                                           ]))),
                                               Align(
                                                   alignment: Alignment.topRight,
                                                   child: Container(
+                                                      margin: getMargin(top: 4),
                                                       padding:
                                                           getPadding(all: 4),
                                                       decoration: AppDecoration

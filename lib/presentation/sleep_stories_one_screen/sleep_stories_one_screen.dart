@@ -54,7 +54,7 @@ class SleepStoriesOneScreen extends GetWidget<SleepStoriesOneController> {
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             image: AssetImage(
-                                                ImageConstant.imgGroup2255),
+                                                ImageConstant.imgGroup3433),
                                             fit: BoxFit.cover)),
                                     child: Stack(
                                         alignment: Alignment.topLeft,
@@ -177,7 +177,7 @@ class SleepStoriesOneScreen extends GetWidget<SleepStoriesOneController> {
                                         children: [
                                           CustomImageView(
                                               imagePath:
-                                                  ImageConstant.imgEllipse109,
+                                                  ImageConstant.imgEllipse108,
                                               height: getVerticalSize(165),
                                               width: getHorizontalSize(146),
                                               alignment: Alignment.center),
@@ -757,77 +757,57 @@ class SleepStoriesOneScreen extends GetWidget<SleepStoriesOneController> {
                                                         return ListItemWidget(
                                                             model);
                                                       })))
-                                        ])),
-                                Align(
-                                    alignment: Alignment.topCenter,
-                                    child: GestureDetector(
-                                        onTap: () {
-                                          onTapRowrectangleseventeen();
-                                        },
-                                        child: Container(
-                                            width: double.maxFinite,
-                                            margin:
-                                                getMargin(top: 97, bottom: 121),
-                                            decoration: AppDecoration
-                                                .gradientLightgreen600abLightgreen800ab
-                                                .copyWith(
-                                                    borderRadius:
-                                                        BorderRadiusStyle
-                                                            .roundedBorder25),
-                                            child: Row(
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.start,
-                                                children: [
-                                                  CustomImageView(
-                                                      imagePath: ImageConstant
-                                                          .imgRectangle171,
-                                                      height:
-                                                          getVerticalSize(93),
-                                                      width:
-                                                          getHorizontalSize(83),
-                                                      radius:
-                                                          BorderRadius.circular(
-                                                              getHorizontalSize(
-                                                                  10)),
-                                                      margin:
-                                                          getMargin(bottom: 5)),
-                                                  Padding(
-                                                      padding: getPadding(
-                                                          left: 12,
-                                                          top: 19,
-                                                          bottom: 58),
-                                                      child: Text(
-                                                          "lbl_mountain_ridge"
-                                                              .tr,
-                                                          overflow: TextOverflow
-                                                              .ellipsis,
-                                                          textAlign:
-                                                              TextAlign.left,
-                                                          style: AppStyle
-                                                              .txtPlayfairDisplaySemiBold15)),
-                                                  Spacer(),
-                                                  CustomImageView(
-                                                      svgPath: ImageConstant
-                                                          .imgFavorite,
-                                                      height:
-                                                          getVerticalSize(14),
-                                                      width:
-                                                          getHorizontalSize(16),
-                                                      margin: getMargin(
-                                                          top: 21, bottom: 63)),
-                                                  CustomIconButton(
-                                                      height: 30,
-                                                      width: 30,
-                                                      margin: getMargin(
-                                                          left: 16,
-                                                          top: 13,
-                                                          right: 21,
-                                                          bottom: 55),
-                                                      child: CustomImageView(
-                                                          svgPath: ImageConstant
-                                                              .imgMaterialsymbol))
-                                                ]))))
-                              ]))
+                                        ]))
+                              ])),
+                      GestureDetector(
+                          onTap: () {
+                            onTapRowrectangleseventeen();
+                          },
+                          child: Container(
+                              width: double.maxFinite,
+                              margin: getMargin(top: 4),
+                              decoration: AppDecoration
+                                  .gradientLightgreen600abLightgreen800ab
+                                  .copyWith(
+                                      borderRadius:
+                                          BorderRadiusStyle.roundedBorder25),
+                              child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    CustomImageView(
+                                        imagePath:
+                                            ImageConstant.imgRectangle1793x82,
+                                        height: getVerticalSize(93),
+                                        width: getHorizontalSize(82),
+                                        radius: BorderRadius.circular(
+                                            getHorizontalSize(10)),
+                                        margin: getMargin(bottom: 5)),
+                                    Padding(
+                                        padding: getPadding(
+                                            left: 12, top: 19, bottom: 58),
+                                        child: Text("lbl_mountain_ridge".tr,
+                                            overflow: TextOverflow.ellipsis,
+                                            textAlign: TextAlign.left,
+                                            style: AppStyle
+                                                .txtPlayfairDisplaySemiBold15)),
+                                    Spacer(),
+                                    CustomImageView(
+                                        svgPath: ImageConstant.imgFavorite,
+                                        height: getVerticalSize(14),
+                                        width: getHorizontalSize(16),
+                                        margin: getMargin(top: 21, bottom: 63)),
+                                    CustomIconButton(
+                                        height: 30,
+                                        width: 30,
+                                        margin: getMargin(
+                                            left: 16,
+                                            top: 13,
+                                            right: 22,
+                                            bottom: 55),
+                                        child: CustomImageView(
+                                            svgPath: ImageConstant
+                                                .imgMaterialsymbol))
+                                  ])))
                     ]))),
             bottomNavigationBar:
                 CustomBottomBar(onChanged: (BottomBarEnum type) {

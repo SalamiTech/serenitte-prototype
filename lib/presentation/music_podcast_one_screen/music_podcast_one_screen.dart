@@ -325,7 +325,7 @@ class MusicPodcastOneScreen extends GetWidget<MusicPodcastOneController> {
                                         ])))
                           ])),
                       Container(
-                          height: getVerticalSize(316),
+                          height: getVerticalSize(406),
                           width: double.maxFinite,
                           margin: getMargin(top: 15),
                           child: Stack(
@@ -345,10 +345,10 @@ class MusicPodcastOneScreen extends GetWidget<MusicPodcastOneController> {
                                     alignment: Alignment.topRight,
                                     margin: getMargin(top: 45)),
                                 Align(
-                                    alignment: Alignment.bottomCenter,
+                                    alignment: Alignment.center,
                                     child: Container(
                                         width: double.maxFinite,
-                                        margin: getMargin(top: 110),
+                                        margin: getMargin(top: 106, bottom: 94),
                                         padding:
                                             getPadding(top: 13, bottom: 13),
                                         decoration: AppDecoration.fillWhiteA700,
@@ -550,84 +550,9 @@ class MusicPodcastOneScreen extends GetWidget<MusicPodcastOneController> {
                                                           ])))
                                             ]))),
                                 Align(
-                                    alignment: Alignment.topCenter,
-                                    child: Padding(
-                                        padding: getPadding(
-                                            left: 14,
-                                            top: 75,
-                                            right: 13,
-                                            bottom: 220),
-                                        child: Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              Text("msg_recommended_podcast".tr,
-                                                  overflow:
-                                                      TextOverflow.ellipsis,
-                                                  textAlign: TextAlign.left,
-                                                  style: AppStyle
-                                                      .txtInterRegular16Bluegray900),
-                                              Padding(
-                                                  padding: getPadding(
-                                                      top: 3, bottom: 3),
-                                                  child: Text(
-                                                      "lbl_view_all2".tr,
-                                                      overflow:
-                                                          TextOverflow.ellipsis,
-                                                      textAlign: TextAlign.left,
-                                                      style: AppStyle
-                                                          .txtInterMedium10Lightgreen600))
-                                            ]))),
-                                Align(
-                                    alignment: Alignment.topRight,
-                                    child: Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.start,
-                                        children: [
-                                          Text("msg_podcast_categories".tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle
-                                                  .txtInterRegular16Bluegray900),
-                                          Container(
-                                              height: getVerticalSize(36),
-                                              child: Obx(() =>
-                                                  ListView.separated(
-                                                      padding: getPadding(
-                                                          left: 1, top: 14),
-                                                      scrollDirection:
-                                                          Axis.horizontal,
-                                                      separatorBuilder:
-                                                          (context, index) {
-                                                        return SizedBox(
-                                                            height:
-                                                                getVerticalSize(
-                                                                    10));
-                                                      },
-                                                      itemCount: controller
-                                                          .musicPodcastOneModelObj
-                                                          .value
-                                                          .listgroupItemList
-                                                          .length,
-                                                      itemBuilder:
-                                                          (context, index) {
-                                                        ListgroupItemModel
-                                                            model = controller
-                                                                .musicPodcastOneModelObj
-                                                                .value
-                                                                .listgroupItemList[index];
-                                                        return ListgroupItemWidget(
-                                                            model);
-                                                      })))
-                                        ])),
-                                Align(
-                                    alignment: Alignment.topCenter,
+                                    alignment: Alignment.bottomCenter,
                                     child: Container(
-                                        width: double.maxFinite,
-                                        margin: getMargin(top: 97, bottom: 121),
+                                        margin: getMargin(left: 6, top: 330),
                                         decoration: AppDecoration
                                             .gradientLightgreen600abLightgreen800ab
                                             .copyWith(
@@ -697,12 +622,86 @@ class MusicPodcastOneScreen extends GetWidget<MusicPodcastOneController> {
                                                   margin: getMargin(
                                                       left: 16,
                                                       top: 13,
-                                                      right: 21,
+                                                      right: 15,
                                                       bottom: 55),
                                                   child: CustomImageView(
                                                       svgPath: ImageConstant
                                                           .imgMaterialsymbol))
-                                            ])))
+                                            ]))),
+                                Align(
+                                    alignment: Alignment.topCenter,
+                                    child: Padding(
+                                        padding: getPadding(
+                                            left: 14,
+                                            top: 75,
+                                            right: 13,
+                                            bottom: 310),
+                                        child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Text("msg_recommended_podcast".tr,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  textAlign: TextAlign.left,
+                                                  style: AppStyle
+                                                      .txtInterRegular16Bluegray900),
+                                              Padding(
+                                                  padding: getPadding(
+                                                      top: 3, bottom: 3),
+                                                  child: Text(
+                                                      "lbl_view_all2".tr,
+                                                      overflow:
+                                                          TextOverflow.ellipsis,
+                                                      textAlign: TextAlign.left,
+                                                      style: AppStyle
+                                                          .txtInterMedium10Lightgreen600))
+                                            ]))),
+                                Align(
+                                    alignment: Alignment.topRight,
+                                    child: Column(
+                                        mainAxisSize: MainAxisSize.min,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text("msg_podcast_categories".tr,
+                                              overflow: TextOverflow.ellipsis,
+                                              textAlign: TextAlign.left,
+                                              style: AppStyle
+                                                  .txtInterRegular16Bluegray900),
+                                          Container(
+                                              height: getVerticalSize(36),
+                                              child: Obx(() =>
+                                                  ListView.separated(
+                                                      padding: getPadding(
+                                                          left: 1, top: 14),
+                                                      scrollDirection:
+                                                          Axis.horizontal,
+                                                      separatorBuilder:
+                                                          (context, index) {
+                                                        return SizedBox(
+                                                            height:
+                                                                getVerticalSize(
+                                                                    10));
+                                                      },
+                                                      itemCount: controller
+                                                          .musicPodcastOneModelObj
+                                                          .value
+                                                          .listgroupItemList
+                                                          .length,
+                                                      itemBuilder:
+                                                          (context, index) {
+                                                        ListgroupItemModel
+                                                            model = controller
+                                                                .musicPodcastOneModelObj
+                                                                .value
+                                                                .listgroupItemList[index];
+                                                        return ListgroupItemWidget(
+                                                            model);
+                                                      })))
+                                        ]))
                               ]))
                     ]))),
             bottomNavigationBar:

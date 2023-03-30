@@ -72,7 +72,7 @@ class TheraphistPage extends StatelessWidget {
                                                                   CustomImageView(
                                                                       imagePath:
                                                                           ImageConstant
-                                                                              .imgEllipse102,
+                                                                              .imgEllipse101,
                                                                       height:
                                                                           getVerticalSize(
                                                                               165),
